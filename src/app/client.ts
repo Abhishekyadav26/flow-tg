@@ -11,3 +11,5 @@ if (!clientId) {
 export const client = createThirdwebClient({
   clientId: clientId,
 });
+
+export const mantleAddress = process.env.NEXT_PUBLIC_TEMPLATE_Address_ID as string;
